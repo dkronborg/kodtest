@@ -63,7 +63,7 @@ class Program
         List<Person> people = ReadPeople(inputFilePath);
         ConvertToXml(people, outputFilePath);
 
-        Console.WriteLine("Conversion complete.");
+        Console.WriteLine("Konvertering klar.");
     }
 
     static List<Person> ReadPeople(string inputFilePath)
